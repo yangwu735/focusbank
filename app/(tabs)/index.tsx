@@ -52,7 +52,15 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+      <Button
+        onPress={() => {
+          console.log('You tapped the button!');
+        }}
+        title="Press Me"
+        color="red"
+      />
     </ParallaxScrollView>
+    
   );
 }
 
